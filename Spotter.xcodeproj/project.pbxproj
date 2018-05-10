@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		50DD78F620A3823800E250D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD78F520A3823800E250D3 /* AppDelegate.swift */; };
-		50DD78F820A3823800E250D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD78F720A3823800E250D3 /* ViewController.swift */; };
 		50DD78FB20A3823800E250D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DD78F920A3823800E250D3 /* Main.storyboard */; };
 		50DD78FD20A3823A00E250D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DD78FC20A3823A00E250D3 /* Assets.xcassets */; };
 		50DD790020A3823A00E250D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DD78FE20A3823A00E250D3 /* LaunchScreen.storyboard */; };
+		50DD790820A3867C00E250D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD790720A3867C00E250D3 /* LoginViewController.swift */; };
+		50DD790A20A38A9200E250D3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD790920A38A9100E250D3 /* RegisterViewController.swift */; };
+		50DD790C20A38C9000E250D3 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD790B20A38C9000E250D3 /* SettingsTableViewController.swift */; };
+		50DD790E20A3915600E250D3 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD790D20A3915600E250D3 /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50DD78F220A3823800E250D3 /* Spotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DD78F520A3823800E250D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50DD78F720A3823800E250D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50DD78FA20A3823800E250D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50DD78FC20A3823A00E250D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50DD78FF20A3823A00E250D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50DD790120A3823A00E250D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DD790720A3867C00E250D3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		50DD790920A38A9100E250D3 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		50DD790B20A38C9000E250D3 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		50DD790D20A3915600E250D3 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +61,12 @@
 			isa = PBXGroup;
 			children = (
 				50DD78F520A3823800E250D3 /* AppDelegate.swift */,
-				50DD78F720A3823800E250D3 /* ViewController.swift */,
-				50DD78F920A3823800E250D3 /* Main.storyboard */,
+				50DD790720A3867C00E250D3 /* LoginViewController.swift */,
+				50DD790920A38A9100E250D3 /* RegisterViewController.swift */,
+				50DD790B20A38C9000E250D3 /* SettingsTableViewController.swift */,
+				50DD790D20A3915600E250D3 /* MockData.swift */,
 				50DD78FC20A3823A00E250D3 /* Assets.xcassets */,
+				50DD78F920A3823800E250D3 /* Main.storyboard */,
 				50DD78FE20A3823A00E250D3 /* LaunchScreen.storyboard */,
 				50DD790120A3823A00E250D3 /* Info.plist */,
 			);
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50DD78F820A3823800E250D3 /* ViewController.swift in Sources */,
+				50DD790C20A38C9000E250D3 /* SettingsTableViewController.swift in Sources */,
+				50DD790820A3867C00E250D3 /* LoginViewController.swift in Sources */,
 				50DD78F620A3823800E250D3 /* AppDelegate.swift in Sources */,
+				50DD790A20A38A9200E250D3 /* RegisterViewController.swift in Sources */,
+				50DD790E20A3915600E250D3 /* MockData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
